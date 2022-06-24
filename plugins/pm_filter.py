@@ -369,6 +369,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+        buttons = [
+            [
+                InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
+                InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
+            ],
+            [
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            ]
+            ]
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -421,6 +430,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
             size = f"{files.file_size}"
             mention = f"{query.from_user.mention}"
+        buttons = [
+            [
+                InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
+                InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
+            ],
+            [
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            ]
+            ]
 
         try:
             msg = await client.send_cached_media(
@@ -483,9 +501,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if size is None:
             size = f"{size}"
         if mention is None:
-            mention = f"{mention}"
-       
-
+            mention = f"{mention}"    
+        buttons = [
+            [
+                InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
+                InlineKeyboardButton('Channel ⭕️', url='https://t.me/JosProjects')
+            ],
+            [
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            ]
+            ]
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
