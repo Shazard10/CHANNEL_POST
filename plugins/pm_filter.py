@@ -994,7 +994,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     except: pass
 
 
-async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
+async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
         settings = await get_settings(message.chat.id)
