@@ -87,7 +87,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'♨️ {search} ♨️ ', 'dupe')
+            InlineKeyboardButton(f'🎭 {search} 🎭 ', 'dupe')
         ]
     )
     btn.insert(1,
@@ -1046,7 +1046,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'♨️ {search} ♨️ ', 'dupe')
+            InlineKeyboardButton(f'🎭 {search} 🎭 ', 'dupe')
         ]
     )
     btn.insert(1,
