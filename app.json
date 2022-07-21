@@ -18,7 +18,7 @@
       "Tovino Bot"
     ],
     "website": "https://github.com/DKBOTx/TovinoBotV3",
-    "repository": "https://github.com/DKBOTx/TovinoBotV3",
+    "repository": "https://github.com/Shazard10/CHANNEL_POST",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
