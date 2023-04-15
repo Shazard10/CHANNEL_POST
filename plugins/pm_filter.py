@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton('📥 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖫𝗂𝗇𝗄 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ 𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ⚠️", url=f'https://t.me/+vdBADYNTk402NzU1')
+                            InlineKeyboardButton("⚠️ 𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ⚠️", url=f'https://t.me/+9KcdXmHQ4OM0MWZl')
                         ]
                     ]
                 )
